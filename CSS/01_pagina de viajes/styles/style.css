@@ -33,3 +33,39 @@ nav ul li a{
     color:#fff; /* color a los elementos anchor */
     text-decoration: none; /* quita subrayado de enlaces */
 }
+
+section{
+    padding: 40px 0; /* Añande relleno superior e inferior */
+}
+
+#banner{
+    background-image: url('https://via.placeholder.com/1500x500'); /* Establece la imagen de fondo del banner de fondo */
+    background-size: cover; /* ajusta la imagen al área del banner */
+    color: #fff; /*Establece color al texto*/
+    text-align: center; /* centra el texto del banner */
+    padding: 130px 0; /* define relleno superior e inferior */
+}
+#banner h2{
+    font-size: 36px; /* Establece tamaño de texto */
+}
+#banner p{
+    font-size: 18px;/* Establece el tamaño de p*/ 
+    margin-bottom: 20px; /* Define margen inferior*/
+}
+
+.btn{
+    background-color: #007bff; /* color fondo de boton */
+    color: #fff; /* color del texto del boton */
+    padding: 10px 20px; /* relleno del boton */
+    text-decoration: none; /* quita decoración de enlace */
+}
+/* estilo cuando pasa puntero sobre le boton */
+.btn:hover {
+    background-color: #0056b3;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
